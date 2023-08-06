@@ -1,0 +1,236 @@
+@import "normalize.css";
+
+@font-face {
+  font-family: Tektur;
+  font-weight: 700;
+  font-style: normal;
+  src: url("/fonts/Tektur/Tektur-Bold.ttf");
+}
+@font-face {
+  font-family: Tektur;
+  font-weight: 500;
+  font-style: normal;
+  src: url("/fonts/Tektur/Tektur-Medium.ttf");
+}
+@font-face {
+  font-family: Tektur;
+  font-weight: 400;
+  font-style: normal;
+  src: url("/fonts/Tektur/Tektur-Regular.ttf");
+}
+
+* {
+  font-family: Tektur, system-ui, sans-serif;
+}
+
+#app {
+  background-color: #fff;
+  flex-direction: column;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 54px;
+  margin-bottom: 30px;
+}
+
+.gradient {
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.user-name-input {
+  font-weight: 400;
+  padding: 10px 5px;
+  width: 100px;
+  margin-bottom: 20px;
+  border: 2px solid #000;
+  border-radius: 10px;
+}
+
+.button-primary {
+  font-weight: 500;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  padding: 8px 5px;
+  width: 80px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: #2575fc;
+  box-shadow: 0 2px #21487f;
+  cursor: pointer;
+}
+
+.button-primary:hover {
+  background-color: #0d3aefd1;
+}
+
+.people {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.headP {
+  border: 2px solid #000;
+  width: 70px;
+  height: 70px;
+  background: #ffdfc4;
+  border-radius: 50%;
+}
+
+.neckP {
+  border: 2px solid #000;
+  border-bottom: 0;
+  border-top: 0;
+  width: 14px;
+  height: 14px;
+  background: #ffdfc4;
+}
+
+.torsoP {
+  display: flex;
+}
+
+.leftHandP {
+  border: 2px solid #000;
+  border-right: 0;
+  width: 70px;
+  height: 20px;
+  background: #ffdfc4;
+}
+
+.breastP {
+  border: 2px solid #000;
+  width: 70px;
+  height: 120px;
+  background: #460fec;
+}
+
+.rightHandP {
+  border: 2px solid #000000;
+  border-left: 0;
+  width: 70px;
+  height: 20px;
+  background: #ffdfc4;
+}
+
+.beltP {
+  border: 2px solid #000000;
+  border-top: 0;
+  border-bottom: 0;
+  width: 72px;
+  height: 7px;
+  background: #011f0e;
+}
+
+.legsP {
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.shortsLeftP {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leftShortsLegP {
+  width: 30px;
+  height: 50px;
+  background: #f30505;
+  border: 2px solid #000000;
+  border-top: 0;
+}
+
+.leftLegP {
+  width: 28px;
+  height: 60px;
+  background: #ffdfc4;
+  border: 2px solid #000000;
+  border-top: 0;
+}
+
+.shortsRightP {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rightShortsLegP {
+  width: 30px;
+  height: 50px;
+  background: #f30505;
+  border: 2px solid #000000;
+  border-top: 0;
+}
+
+.rightLegP {
+  width: 28px;
+  height: 60px;
+  background: #ffdfc4;
+  border: 2px solid #000000;
+  border-top: 0;
+}
+
+.changeColors {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 150px;
+}
+
+.t-shirtColor {
+  width: 100px;
+  height: 100;
+  border-radius: 8px;
+}
+
+.labelTshirt {
+  margin-bottom: 100px;
+}
+
+.shortsColor {
+  width: 100px;
+  height: 100;
+  border-radius: 8px;
+}
+
+.endButton {
+  margin-top: 50px;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 10px 5px;
+  width: 80px;
+  outline: none;
+  border: none;
+  color: #fff;
+  background-color: #2575fc;
+  box-shadow: 0 2px #21487f;
+  cursor: pointer;
+}
+
+.endButton:hover {
+  background-color: #0d3aefd1;
+}
+
+.view-result {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.result-gradient {
+  background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
